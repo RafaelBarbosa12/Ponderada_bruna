@@ -7,7 +7,7 @@ Este documento descreve os cenários de testes dos casos de uso do sistema de re
 Validar a experiência do usuário (UX) e a conformidade funcional da plataforma, assegurando que o sistema seja eficiente, intuitivo, seguro e confiável para assessores e administradores.
 
 
-## 🧪 Casos de Uso e Cenários de Teste
+## Casos de Uso e Cenários de Teste
 
 ### 1. Autenticar Usuário
 *Atores:* Assessor  
