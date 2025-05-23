@@ -69,11 +69,11 @@ Validar a experiência do usuário e a conformidade funcional da plataforma, ass
 
 ---
 
-### 6. Gerar Relatórios e Dashboards
+### 6. Gerar Relatórios
  
 *Perguntas direcionadas (SUS)* 3, 5, 7
 
-- *Cenário 6.1:* Aplicação de filtros e geração de dashboards.
+- *Cenário 6.1:* Aplicação de filtros e geração.
 - *Cenário 6.2:* Exportação de relatórios em diferentes formatos.
 - *Cenário 6.3:* Usabilidade em dispositivos móveis (RNF02).
 
