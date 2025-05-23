@@ -4,15 +4,14 @@ Este documento descreve os cenários de testes dos casos de uso do sistema de re
 
 ## Objetivo
 
-Validar a experiência do usuário (UX) e a conformidade funcional da plataforma, assegurando que o sistema seja eficiente, intuitivo, seguro e confiável para assessores e administradores.
+Validar a experiência do usuário e a conformidade funcional da plataforma, assegurando que o sistema seja eficiente, intuitivo, seguro e confiável para assessores e administradores.
 
 
-## Casos de Uso e Cenários de Teste
+## Relação dos Casos de Uso com os Cenários de Teste
 
 ### 1. Autenticar Usuário
-*Atores:* Assessor  
-*RF/RNF Relacionados:* RNF04, RNF03  
-*SUS Focado:* 4, 9
+ 
+*Perguntas direcionadas (SUS)* 4, 9
 
 - *Cenário 1.1:* O assessor insere credenciais válidas e acessa o sistema com sucesso.
 - *Cenário 1.2:* O sistema realiza autenticação via múltiplos fatores.
@@ -23,22 +22,20 @@ Validar a experiência do usuário (UX) e a conformidade funcional da plataforma
 ---
 
 ### 2. Importar Dados de Clientes
-*Atores:* Assessor  
-*RF Relacionado:* RF04  
-*SUS Focado:* 2, 3, 5
+ 
+*Perguntas direcionadas (SUS)* 2, 3, 5
 
 - *Cenário 2.1:* Upload de arquivo CSV válido com feedback de sucesso.
 - *Cenário 2.2:* Upload de arquivo com erros e exibição de mensagens claras.
-- *Cenário 2.3:* Tempo de resposta para uploads grandes (validar RNF05).
+- *Cenário 2.3:* Tempo de resposta para uploads grandes (RNF05).
 
 > *Testes SUS:* Facilidade de uso da funcionalidade, clareza das mensagens de erro e integração visual do processo.
 
 ---
 
 ### 3. Obter Dados do Cliente
-*Atores:* Assessor  
-*RF Relacionado:* RF01, RF07  
-*SUS Focado:* 3, 5, 7
+ 
+*Perguntas direcionadas (SUS)* 3, 5, 7
 
 - *Cenário 3.1:* Visualização da carteira e perfil ao selecionar cliente.
 - *Cenário 3.2:* Verificação de layout, organização e responsividade (RNF02).
@@ -49,9 +46,8 @@ Validar a experiência do usuário (UX) e a conformidade funcional da plataforma
 ---
 
 ### 4. Comparar Perfil Calculado com Cadastrado
-*Atores:* Assessor  
-*RF Relacionado:* RF02, RF05  
-*SUS Focado:* 1, 6, 9
+ 
+*Perguntas direcionadas (SUS)* 1, 6, 9
 
 - *Cenário 4.1:* Exibição clara dos perfis lado a lado.
 - *Cenário 4.2:* Alertas automáticos de divergência.
@@ -62,9 +58,8 @@ Validar a experiência do usuário (UX) e a conformidade funcional da plataforma
 ---
 
 ### 5. Simular Ajustes na Carteira
-*Atores:* Assessor  
-*RF Relacionado:* RF06  
-*SUS Focado:* 3, 5, 9
+ 
+*Perguntas direcionadas (SUS)* 3, 5, 9
 
 - *Cenário 5.1:* Simulação clara com comparativo antes/depois.
 - *Cenário 5.2:* Tempo de resposta das simulações (RNF05).
@@ -75,9 +70,8 @@ Validar a experiência do usuário (UX) e a conformidade funcional da plataforma
 ---
 
 ### 6. Gerar Relatórios e Dashboards
-*Atores:* Assessor  
-*RF Relacionado:* RF07, RF08, RF09  
-*SUS Focado:* 3, 5, 7
+ 
+*Perguntas direcionadas (SUS)* 3, 5, 7
 
 - *Cenário 6.1:* Aplicação de filtros e geração de dashboards.
 - *Cenário 6.2:* Exportação de relatórios em diferentes formatos.
@@ -88,9 +82,8 @@ Validar a experiência do usuário (UX) e a conformidade funcional da plataforma
 ---
 
 ### 7. Justificar Casos de Exceção
-*Atores:* Assessor  
-*RF Relacionado:* RF05  
-*SUS Focado:* 3, 9
+ 
+*Perguntas direcionadas (SUS)* 3, 9
 
 - *Cenário 7.1:* Inserção de justificativa em campos obrigatórios.
 - *Cenário 7.2:* Validação e armazenamento correto para auditoria.
@@ -100,10 +93,9 @@ Validar a experiência do usuário (UX) e a conformidade funcional da plataforma
 
 ---
 
-### 8. Gerenciar Usuários
-*Atores:* Administrador  
-*RF Relacionado:* —  
-*SUS Focado:* 3, 6, 8
+### 8. Gerenciar Assessores
+
+*Perguntas direcionadas (SUS)* 3, 6, 8
 
 - *Cenário 8.1:* Criar, editar, desativar e reativar usuários com feedback visual.
 - *Cenário 8.2:* Testar usabilidade do CRUD de usuários.
@@ -113,14 +105,12 @@ Validar a experiência do usuário (UX) e a conformidade funcional da plataforma
 
 ---
 
-### 9. Configurar Parâmetros do Sistema
-*Atores:* Administrador  
-*RF Relacionado:* —  
-*SUS Focado:* 3, 6, 10
+### 9. Configurar Parâmetros da Carteira no Sistema
 
-- *Cenário 9.1:* Navegação entre categorias e edição de parâmetros.
-- *Cenário 9.2:* Validação de consistência nas alterações.
-- *Cenário 9.3:* Testar curva de aprendizado para configuração.
+*Perguntas direcionadas (SUS)* 3, 6, 10
+
+- *Cenário 9.1:* Navegação entre categorias e edição de parâmetros de risco.
+- *Cenário 9.2:* Validação de consistência nas alterações de acordo com normas.
 
 > *Testes SUS:* Facilidade de aprendizado e ausência de inconsistências na configuração.
 
